@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #131212;
+    color: #f7f6f6;
+  }
+  
+  header {
+    background-color: #303030;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #searchInput {
+    padding: 0.5rem;
+    width: 60%;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .movie-card {
+    background-color: #363636;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .movie-card a {
+    color: #0af;
+    text-decoration: none;
+  }
+  
